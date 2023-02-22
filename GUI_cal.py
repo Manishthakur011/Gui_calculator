@@ -17,7 +17,8 @@ def equal_press():
         global expression
         total = str(eval(expression))
         equation.set(total) # will update the value 
-        expression = ''
+          expression = total +''
+
     except:
         equation.set('error')
         expression = ''
